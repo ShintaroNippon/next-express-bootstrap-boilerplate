@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Button } from 'react-bootstrap';
 import Theme from '../components/Theme';
 
 // Straight away require/import scss/css just like in react.
@@ -33,7 +32,7 @@ const Index = () => (
         <br />
         <div className="btn">
             <Link href="/profile">
-                <Button bsStyle="primary">Click Me</Button>
+               click me
             </Link>
         </div>
 
