@@ -27,7 +27,7 @@ const start = async (port) => {
     app.get('/main', (req, res) => req.app.render(req, res, '/', {
         routeParam: req.params.routeParam
     }));
-
+    console.log("app is listening at",port)
     app.listen(port);
 };
 
