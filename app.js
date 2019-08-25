@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const next = require('./next');
 
 const app = express();
-// Put in place textbook middlewares for express.
+// Put in place textbook middleware for express.
 if (process.env.NODE_ENV !== 'production') {
     // app.use(logger('dev'));
 }
